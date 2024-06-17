@@ -60,6 +60,7 @@ export default function SignUpForm() {
             onChange={update}
             pattern="^[A-Za-z0-9]{3,16}$"
             required
+            className="inputs"
           />
           <br />
           {form.username.length < 8 && form.username.length > 0 && (
@@ -75,7 +76,8 @@ export default function SignUpForm() {
             name="password"
             value={form.password}
             onChange={update}
-            required
+                      required
+                      className="inputs"
           />
         </label>
         <br />

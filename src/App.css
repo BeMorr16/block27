@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.inputs {
+  line-height: 24px;
+  width: 124px;
+  padding: .1rem;
+}
+
+button {
+  margin: .5rem;
+}
